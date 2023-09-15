@@ -1,0 +1,13 @@
+.btn-join {
+  background-color: #e74a33;
+  border: none;
+  border-radius: 2rem;
+}
+.btn-join:hover{
+    background-color: #fbd86d;
+    color: black;
+}
+.card{
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+}
+
