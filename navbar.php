@@ -5,9 +5,15 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-1 mb-lg-0 small fw-bolder">
-                <li class="nav-item pr-3"><a class="nav-link" href="project-all.php">โครงการ</a></li>
                 <div class="dropdown">
-                    <li class="nav-item" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><a class="nav-link" href="movement-topic.php">ความเคลื่อนไหว</a></li>
+                    <li class="nav-item" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><a class="nav-link" href="movement-topic.php">โครงการ <i class="bi bi-caret-down-fill" style="font-size: small;"></i></a></li>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="project-all.php">โครงการทั้งหมด</a></li>
+                        <li><a class="dropdown-item" href="project-send.php">ส่งโครงการ</a></li>                        
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <li class="nav-item" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false"><a class="nav-link" href="movement-topic.php">ความเคลื่อนไหว <i class="bi bi-caret-down-fill" style="font-size: small;"></i></a></li>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                         <li><a class="dropdown-item" href="movement-couse.php">คอร์ส</a></li>
                         <li><a class="dropdown-item" href="movement-topic.php">บทความ</a></li>
